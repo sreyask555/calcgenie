@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body header{
+    position: absolute;
+    margin: 20px 0 0 0;
+    width: 100%;
+    text-align: center;
+}
+
+.main{
+    background-image: url(./parallax_land.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .product-description{
+    margin: 30px 30px 30px 30px;
+    padding: 35px 35px 35px 35px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main .product-description .variant-selector{
+    display: flex;
+    flex-direction: row;
+}
+
+.main .calc{
+    margin: 30px 30px 30px 30px;
+    padding: 35px 35px 35px 35px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
